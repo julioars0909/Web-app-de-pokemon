@@ -1,0 +1,43 @@
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+.pagination-list {
+    display: flex;
+    gap: 10px;
+}
+
+.pagination-item {
+    width: 50px;
+    aspect-ratio: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.page-active {
+    background-color: red;
+    color: white;
+}
+
+@media(max-width:510px) {
+    .pagination-list {
+        display: flex;
+        gap: 5px;
+    }
+
+    .pagination-item {
+        width: 30px;
+        aspect-ratio: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+}

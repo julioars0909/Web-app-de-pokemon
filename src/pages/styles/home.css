@@ -1,0 +1,49 @@
+.home {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
+.home-img {
+    width: 50%;
+    margin: auto;
+    height: auto;
+    margin-top: 175px
+}
+
+.home-section {
+    display: flex;
+    justify-content: center;
+}
+
+
+.home-greeting {
+    color: red;
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+.home-info {
+    text-align: center;
+}
+
+.home-form {
+    display: flex;
+    justify-content: center;
+
+    margin-top: 1rem;
+
+}
+
+.home-input {
+    width: 50%;
+    height: 25px;
+}
+
+.home-btn {
+    width: 75px;
+    background-color: red;
+    color: white;
+}
