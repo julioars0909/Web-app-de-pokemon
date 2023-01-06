@@ -79,21 +79,7 @@
 
 }
 
-@media(max-width:799px) {
-    .pokedexInfo-features {
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-        gap: 1rem;
 
-    }
-
-    .pokedexInfo-body {
-        margin: 0 1rem;
-        margin-top: 80px;
-    }
-
-}
 
 .pokedexInfo--stats-tittle {
     text-align: center;
@@ -542,4 +528,34 @@
 
 .bg--type-fire:nth-child(2) {
     background-color: #e67729;
+}
+
+@media(max-width:799px) {
+    .pokedexInfo-features {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 1rem;
+
+    }
+
+    .pokedexInfo-body {
+        margin: 0 1rem;
+        margin-top: 80px;
+    }
+
+    .footer {
+        background-color: white;
+        margin: 1rem 1rem;
+        padding: 1rem;
+
+    }
+
+    .footer-attacks {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 1rem;
+        gap: 0.5rem;
+    }
+
 }
